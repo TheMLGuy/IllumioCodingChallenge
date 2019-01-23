@@ -19,9 +19,11 @@ SDET Coding Assignment Back-end QA team
     a. When user provides an empty url
     b. When user provides a valid url but it does not generate a response
     c. When user provides a valid url and it generates a response
-    d. When user provides an invalid url
-    e. When user provides an invalid url for the third time
-    f. Combinations of inputs for url like ftp/http/https, url with or without port, ip or localhost or domain and so on
+    d. When user  provides the same valid url that has been seen before
+    e. When user provides an invalid url
+    f. When user provides an invalid url for the third time
+    g. When user gives the same invalid url 
+    h. Combinations of inputs for url like ftp/http/https, url with or without port, ip or localhost or domain and so on
   A file called test.py is attached as part of the solution. This can be executed using pytest from command line in 
   the following manner:
   
