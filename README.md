@@ -10,8 +10,8 @@ SDET Coding Assignment Back-end QA team
      Return the response and status code for url that has been seen before, 
      Update retry count if invalid url is provided as input.
   
-  UserInterface class is responsible for modules pertaining to handling user input and session
-  To execute the program, open command line, invoke python UserInterface.py or python -m UserInterface. This will start the session and user is prompted to enter a url.
+    UserInterface class is responsible for modules pertaining to handling user input and session
+    To execute the program, open command line, invoke python UserInterface.py or python -m UserInterface. This will start the session and user is prompted to enter a url.
   
   
  2. Testing of solution:
