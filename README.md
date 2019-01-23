@@ -11,7 +11,7 @@ SDET Coding Assignment Back-end QA team
     e. Update retry count if invalid url is provided as input
   
   UserInterface class is responsible for modules pertaining to handling user input and session
-  To execute the program, open command line, invoke python userinterface.py. This will start the session and user is prompted to enter a url.
+  To execute the program, open command line, invoke python UserInterface.py or python -m UserInterface. This will start the session and user is prompted to enter a url.
   
   
 2. Testing of solution:
@@ -26,7 +26,7 @@ SDET Coding Assignment Back-end QA team
     h. Combinations of inputs for url like ftp/http/https, url with or without port, ip or localhost or domain and so on
   A file called test.py is attached as part of the solution. This can be executed using pytest from command line in 
   the following manner:
-  
+      python test.py
   
   
 3. Design choices:
@@ -35,7 +35,7 @@ SDET Coding Assignment Back-end QA team
 4. Improvements:
 I believe storing urls can be improved by using a trie data structure instead of a simple dictionary. The search of urls can be improved when a trie data structure is used. For example, if user queries https://www.google.com/users and https://www.google.com/mail. Instead of creating two separate entries in dictionary, this can be improved by using a trie.
 An additional feature could be setting a limit on the number of urls that can be remembered along with response data fields. Using a limit can ensure that the 'top n' number of results are remembered.
-
+I would have wanted to use pytest and execute a series of tests.
 5. I am greatful to you for receiving this challenge and am keenly looking forward to hearing from you.
 
   
