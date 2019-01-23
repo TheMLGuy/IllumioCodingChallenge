@@ -14,12 +14,12 @@ SDET Coding Assignment Back-end QA team
     To execute the program, open command line, invoke python UserInterface.py or python -m UserInterface. This will start the session and user is prompted to enter a url.
   
   
- 2. Testing of solution: are
+ 2. Testing of solution: 
   I identified the following testcases:
-     When user provi, es an empty url; 
+     When user provides an empty url; 
      When user provides a valid url but it does not generate a response; 
      When user provides a valid url and it generates a response;
-     When user  provides the same valid url that has been seen before; 
+     When user provides the same valid url that has been seen before; 
      When user provides an invalid url;
      When user provides an invalid url for the third time; 
      When user gives the same invalid url;
